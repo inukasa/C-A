@@ -1,0 +1,249 @@
+﻿@model StoreSites.Models.Product
+@using StoreSites.Models
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="container">
+    <div class="single">
+        <div class="Boder_AddToCart">
+            <div class="Product_picture">
+                <ul id="etalage">
+                    <li>
+                        <a href="optionallink.html">
+                            <img class="etalage_thumb_image img-responsive" src="~/Images/si1.jpg" alt="">
+                            <img class="etalage_source_image img-responsive" src="~/Images/si1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <img class="etalage_thumb_image img-responsive" src="~/Images/si2.jpg" alt="">
+                        <img class="etalage_source_image img-responsive" src="~/Images/si2.jpg" alt="">
+                    </li>
+                    <li>
+                        <img class="etalage_thumb_image img-responsive" src="~/Images/si.jpg" alt="">
+                        <img class="etalage_source_image img-responsive" src="~/Images/si.jpg" alt="">
+                    </li>
+                    <li>
+                        <img class="etalage_thumb_image img-responsive" src="~/Images/si1.jpg" alt="">
+                        <img class="etalage_source_image img-responsive" src="~/Images/si1.jpg" alt="">
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-md-7">
+                <div class="single-para">
+                    <button onclick="myfunction()">Text</button>
+                    <h4>@ViewBag.ProName</h4>
+                    <div class="available">
+                        <h6>
+                            Available Options :
+                        </h6>Chọn màu bạn muốn: <br>
+                        <div class="color_select">
+                            @{
+                                var listC = ViewBag.lC as List<ColorModels>;
+
+                                foreach (ColorModels it in listC)
+                                {
+                                    <label class="radio_color">
+                                        <a>@it.color</a>
+                                        @Html.RadioButton("Color", "" + it.color, new { onchange = "writeCookieColor(it.color, 3)"})
+                                        <span class="checkmark_color"></span>
+                                    </label>
+                                }
+                            }
+                        </div>
+                        <p>Chọn kích cỡ bạn muốn: </p>
+                        <div class="size_select">
+                            @{
+                                var listS = ViewBag.lS as List<SizeModels>;
+                                foreach (SizeModels it in listS)
+                                {
+                                    <label class="radio_color">
+                                        <a>@it.size</a>
+                                        @Html.RadioButton("Size", "" + it.size, new { onchange = "writeCookieSize(it.color, 3)"})
+                                        <span class="checkmark_color"></span>
+                                    </label>
+                                }
+                            }
+                        </div>
+                        <div class="para-grid">
+                            @using (Entities1 db = new Entities1())
+                            {
+                                <span class="add-to" >@ViewBag.Color</span>
+                            }
+
+
+                            <div class="clearfix"></div>
+                        </div>
+                        <div>
+                            <ul>
+                                Số lượng:
+                                <input class="quantity" type="number" name="quantitybox" min="1" max="5" onkeypress="return isNumber(event)">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="buy_field">
+                        <a href="@Url.Action("AddCart","Products")" class="AddToCart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+            <div class="detail_product">
+                <p><h4>THÔNG TIN SẢN PHẨM</h4></p>
+                <table class="table_product_info">
+                    <tr>
+                        <th width="15%"></th>
+                        <th width="85%"></th>
+                    </tr>
+                    <tr>
+                        <td>Tên sản phẩm</td>
+                        <td>Aliquam dignissim porttitor tortor non fermentum. Curabitur in magna lectus. Duis sed eros diam. Lorem ipsum dolor sit amet, consectetur.</td>
+                    </tr>
+                    <tr>
+                        <td>Xuất xứ</td>
+                        <td>Aliquam dignissim porttitor tortor non fermentum. Curabitur in magna lectus. Duis sed eros diam. Lorem ipsum dolor sit amet, consectetur.</td>
+                    </tr>
+                    <tr>
+                        <td>Nội dung</td>
+                        <td>Aliquam dignissim porttitor tortor non fermentum. Curabitur in magna lectus. Duis sed eros diam. Lorem ipsum dolor sit amet, consectetur.</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="box_chat">
+                <p><h4>Ý KIẾN CỦA NGƯỜI DÙNG</h4></p>
+                <p>Bạn A: Tôi rất thích sản phẩm này</p>
+            </div>
+            <div class="content-top-in">
+                <div class="ContentBottom">
+                    <div class="col-md">
+                        <img src="~/Images/pic8.jpg" alt="" />
+                        <div class="top-content">
+                            <h5>Mascot Kitty - White</h5>
+                            <div class="Space_AddToCart_Cost">
+                                <a href="#" class="AddToCartAnother">ADD TO CART</a>
+                                <p class="product-cost">20000</p>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ContentBottom">
+                    <div class="col-md">
+                        <img src="~/Images/pic9.jpg" alt="" />
+                        <div class="top-content">
+                            <h5>Mascot Kitty - White</h5>
+                            <div class="Space_AddToCart_Cost">
+                                <a href="#" class="AddToCartAnother">ADD TO CART</a>
+                                <p class="product-cost">20000</p>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ContentBottom">
+                    <div class="col-md">
+                        <img src="~/Images/pic10.jpg" alt="" />
+                        <div class="top-content">
+                            <h5>Mascot Kitty - White</h5>
+                            <div class="Space_AddToCart_Cost">
+                                <a href="#" class="AddToCartAnother">ADD TO CART</a>
+                                <p class="product-cost">20000</p>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="single-bottom">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#"><i> </i>Fusce feugiat</a></li>
+                    <li><a href="#"><i> </i>Mascot Kitty</a></li>
+                    <li><a href="#"><i> </i>Fusce feugiat</a></li>
+                    <li><a href="#"><i> </i>Mascot Kitty</a></li>
+                    <li><a href="#"><i> </i>Fusce feugiat</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+<!---->
+<div class="footer">
+    <div class="footer-middle">
+        <div class="container">
+            <div class="footer-middle-in">
+                <h6>Về chúng tôi</h6>
+                <p>Chúng tôi là.... abcxyz</p>
+            </div>
+            <div class="footer-middle-in">
+                <h6>Thông tin</h6>
+                <ul>
+                    <li><a href="#">Thông tin về chúng tôi</a></li>
+                    <li><a href="#">Thông tin giao hàng</a></li>
+                    <li><a href="#">Điều khoản và điều kiện</a></li>
+                </ul>
+            </div>
+            <div class="footer-middle-in">
+                <h6>Dịch vụ khách hàng</h6>
+                <ul>
+                    <li><a href="contact.html">Liên hệ với chúng tôi</a></li>
+                    <li><a href="#">Địa điểm</a></li>
+                </ul>
+            </div>
+            <div class="footer-middle-in">
+                <h6>Tài khoản</h6>
+                <ul>
+                    <li><a href="account.html">Tài khoản của bạn</a></li>
+                    <li><a href="#">Lịch sự đặt hàng</a></li>
+                    <li><a href="wishlist.html">Danh sách mong muốn</a></li>
+                </ul>
+            </div>
+            <div class="footer-middle-in">
+                <h6>Extras</h6>
+                <ul>
+                    <li><a href="#">Thẻ quà tặng</a></li>
+                    <li><a href="#">Chi nhánh</a></li>
+                    <li><a href="#">Đặc biệt</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+<script>
+
+    function isNumber(evt) {
+        evt = (evt) ? evt : window.event;
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+            alert("You need insert number");
+            return false;
+
+        }
+        return true;
+    }
+</script>
+<script>
+    jQuery(document).ready(function ($) {
+        $('#etalage').etalage({
+            thumb_image_width: 300,
+            thumb_image_height: 400,
+            source_image_width: 900,
+            source_image_height: 1200,
+            show_hint: true,
+        });
+    });
+</script>
+
+@section scripts{
+    <script>
+
+    </script>
+    }

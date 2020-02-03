@@ -1,0 +1,227 @@
+﻿@model StoreSites.Models.User
+@using StoreSites.Models;
+
+@{
+    Layout = null;
+}
+<html>
+<head>
+    <title>Profile</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="~/Scripts/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link rel="stylesheet" href="~/Content/stylebutton.css">
+    <link href="~/Content/styleprofile.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="~/Content/etalage.css">
+    <script src="~/Scripts/jquery.etalage.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-in">
+                    <div class="logo">
+                        <a href="@Url.Action("Index","Products")"><img src="~/Images/Logo web.png" alt=" "></a>
+                    </div>
+                    <!--Phần này là phần menu phía trên -->
+                    <div class="header-in">
+                        <ul class="icon1 sub-icon1">
+                            <li>@Html.ActionLink("Đăng xuất", "Logout", "Login")</li>
+                            <li>@Html.ActionLink("Hồ sơ", "ViewProfile", "Login")</li>
+                            <li>
+                                @{
+                                    string username = Session["username"].ToString();
+                                    using (Entities1 db = new Entities1())
+                                    {
+                                    <li>@Html.ActionLink("Danh sách đơn hàng", "ListOrder", "CheckoutAndOrder", new { id = db.Users.Where(x => x.username.Equals(username)).FirstOrDefault().userID }, null)</li>
+                                    List<ShoppingCart> listCart = db.ShoppingCarts.Where(x => x.userID == db.Users.Where(y => y.username.Equals(username)).FirstOrDefault().userID).ToList();
+                                    <div class="cart">
+                                        <a href="@Url.Action("CartList", "Products", new { id = db.Users.Where(x => x.username.Equals(username)).FirstOrDefault().userID })" class="cart-in"> </a>
+                                        <span>@listCart.Count</span><!--Dòng này dùng để hiển thị số sản phẩm trong giỏ hàng-->
+                                    </div>
+                                    
+                                }
+                                }
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="h_menu4">
+                    <a class="toggleMenu" href="index.html">Menu</a> <!--Nút home của trang chủ-->
+                    <!--Thanh navigation của web site-->
+                    <ul class="nav">
+                        <li class="active"><a href="@Url.Action("Index","Products")"><i></i>Trang chủ</a></li>
+                        @using (Entities1 db = new Entities1())
+                        {
+                            List<SubCategory> listSC1 = db.SubCategories.Where(x => x.categoryID == 1).ToList();
+                            List<SubCategory> listSC2 = db.SubCategories.Where(x => x.categoryID == 2).ToList();
+                            List<SubCategory> listSC3 = db.SubCategories.Where(x => x.categoryID == 3).ToList();
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#">Quần áo nam</a>
+                                    <ul class="dropdown-content">
+                                        @foreach (SubCategory sc in listSC1)
+                                        {
+                                            <li>@Html.ActionLink("" + sc.subcategoryName, "Cate", "Products", new { id = sc.subcategoryID }, null)</li>
+                                        }
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#">Quần áo nữ</a>
+                                    <ul class="dropdown-content">
+                                        @foreach (SubCategory sc in listSC2)
+                                        {
+                                            <li>@Html.ActionLink("" + sc.subcategoryName, "Cate", "Products", new { id = sc.subcategoryID }, null)</li>
+                                        }
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#">Phụ kiện</a>
+                                    <ul class="dropdown-content">
+                                        @foreach (SubCategory sc in listSC3)
+                                        {
+                                            <li>@Html.ActionLink("" + sc.subcategoryName, "Cate", "Products", new { id = sc.subcategoryID }, null)</li>
+                                        }
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="@Url.Action("Contact", "Products")">Liên hệ</a></li>
+                        }
+                    </ul>
+                    <script type="text/javascript" src="js/nav.js"></script>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom-in">
+            <div class="container">
+                <div class="header-bottom-on">
+                    <p class="wel" style="color: #ff5757">Xin chào, chào mừng bạn tham gia và sử dụng C&A shop</p>
+                    <div class="header-can">
+
+                        <div class="search">
+                            @using (Html.BeginForm("Search", "Products", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                            {
+                                <input type="text" name="search">
+                                <input type="submit" value="">
+                            }
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Thông tin tài khoản</h2>
+        <div>
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>
+                        Tên tài khoản:
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.username)
+                    </dd>
+
+                    <br />
+                    <dt>
+                        Tên của bạn:
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.fullname)
+                    </dd>
+
+                    <br />
+                    <dt>
+                        Địa chỉ:
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.address)
+                    </dd>
+
+                    <br />
+                    <dt>
+                        Số điện thoại:
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.phone)
+                    </dd>
+
+                    <br />
+                    <dt>
+                        Email:
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.email)
+                    </dd>
+
+                    <br />
+                    <dt>
+                        Giới tính:
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.gender)
+                    </dd>
+
+                    <br />
+                    <dt>
+                        Ngày sinh:
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.birthday)
+                    </dd>
+
+                </dl>
+            </div>
+
+        <p>
+            <button style="border-radius: 5px">@Html.ActionLink("Edit", "EditProfile", new { id = Model.userID })</button> 
+</p>
+    </div>
+    <br />
+    <div class="footer">
+        <div class="footer-middle">
+            <div class="container">
+
+                <div class="footer-middle-in">
+                    <h6>Mua hàng</h6>
+                    <ul>
+                        <li><a href="#">Đồ Nam</a></li>
+                        <li><a href="#">Đồ Nữ</a></li>
+                        <li><a href="#">Phụ Kiện Thể Thao</a></li>
+                    </ul>
+                </div>
+                <div class="footer-middle-in">
+                    <h6>Dịch vụ khách hàng</h6>
+                    <ul>
+                        <li><a href="contact.html">Liên hệ với chúng tôi</a></li>
+                        <li><a href="#">Địa điểm</a></li>
+                    </ul>
+                </div>
+                <div class="footer-middle-in">
+                    <h6>Tài khoản</h6>
+                    <ul>
+                        <li><a href="account.html">Tài khoản của bạn</a></li>
+                        <li><a href="#">Lịch sử đặt hàng</a></li>
+                        <li><a href="wishlist.html">Danh sách mong muốn</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

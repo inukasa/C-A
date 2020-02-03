@@ -1,0 +1,181 @@
+﻿
+@model StoreSites.Models.UserLoginModels
+@using StoreSites.Models;
+@{
+    Layout = null;
+}
+@Html.Raw(ViewBag.ErrorMessege)
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="~/Scripts/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link rel="stylesheet" href="~/Content/stylebutton.css">
+    <link href="~/Content/stylelogin.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="~/Content/etalage.css">
+    <script src="~/Scripts/jquery.etalage.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-in">
+                    <div class="logo">
+                        <a href="@Url.Action("Index","Products")"><img src="~/Images/Logo web.png" alt=" "></a>
+                    </div>
+                    <!--Phần này là phần menu phía trên -->
+                    <div class="header-in">
+                        <ul class="icon1 sub-icon1">
+                            <li>@Html.ActionLink("Đăng kí", "Register", "Login")</li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="h_menu4">
+                    <a class="toggleMenu" href="index.html">Menu</a> <!--Nút home của trang chủ-->
+                    <!--Thanh navigation của web site-->
+                    <ul class="nav">
+                        <li class="active"><a href="@Url.Action("Index","Products")"><i></i>Trang chủ</a></li>
+                        @using (Entities1 db = new Entities1())
+                        {
+                            List<SubCategory> listSC1 = db.SubCategories.Where(x => x.categoryID == 1).ToList();
+                            List<SubCategory> listSC2 = db.SubCategories.Where(x => x.categoryID == 2).ToList();
+                            List<SubCategory> listSC3 = db.SubCategories.Where(x => x.categoryID == 3).ToList();
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#">Quần áo nam</a>
+                                    <ul class="dropdown-content">
+                                        @foreach (SubCategory sc in listSC1)
+                                        {
+                                            <li>@Html.ActionLink("" + sc.subcategoryName, "Cate", "Products", new { id = sc.subcategoryID }, null)</li>
+                                        }
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#">Quần áo nữ</a>
+                                    <ul class="dropdown-content">
+                                        @foreach (SubCategory sc in listSC2)
+                                        {
+                                            <li>@Html.ActionLink("" + sc.subcategoryName, "Cate", "Products", new { id = sc.subcategoryID }, null)</li>
+                                        }
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#">Phụ kiện</a>
+                                    <ul class="dropdown-content">
+                                        @foreach (SubCategory sc in listSC3)
+                                        {
+                                            <li>@Html.ActionLink("" + sc.subcategoryName, "Cate", "Products", new { id = sc.subcategoryID }, null)</li>
+                                        }
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="@Url.Action("Contact", "Products")">Liên hệ</a></li>
+                        }
+                    </ul>
+                    <script type="text/javascript" src="js/nav.js"></script>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom-in">
+            <div class="container">
+                <div class="header-bottom-on">
+                    <p class="wel" style="color: #ff5757">Xin chào, chào mừng bạn tham gia và sử dụng C&A shop</p>
+                    <div class="header-can">
+
+                        <!--Thanh searchbar-->
+                        <div class="search">
+                            @using (Html.BeginForm("Search", "Products", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                            {
+                                <input type="text" name="search">
+                                <input type="submit" value="">
+                            }
+                        </div>
+
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="account">
+            <h2 class="account-in">Đăng nhập tài khoản của bạn</h2>
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div>
+                    <span class="mail">Tài khoản</span>
+                    @Html.EditorFor(model => model.username, new { htmlAttributes = new { @class = "inputus" } })
+                </div>
+
+                <div>
+                    <span class="word">Mật khẩu</span>
+                    @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "inputus" }, type = "password" })
+                </div>
+                <div class="forget_pass">
+                    @Html.ActionLink("Đặt lại mật khẩu", "ResetPassword")
+                </div>
+                <div class="login_field">
+                    <input type="submit" value="Đăng nhập" class="login_button" />
+                </div>
+
+            }
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <div class="footer">
+        <div class="footer-middle">
+            <div class="container">
+
+                <div class="footer-middle-in" style="width:33%;">
+                    <h6>Mua hàng</h6>
+                    <ul>
+                        <li><a href="#">Đồ Nam</a></li>
+                        <li><a href="#">Đồ Nữ</a></li>
+                        <li><a href="#">Phụ Kiện Thể Thao</a></li>
+                    </ul>
+                </div>
+                <div class="footer-middle-in" style="width:33%;">
+                    <h6>Dịch vụ khách hàng</h6>
+                    <ul>
+                        <li><a href="contact.html">Liên hệ với chúng tôi</a></li>
+                        <li><a href="#">Địa điểm</a></li>
+                    </ul>
+                </div>
+                <div class="footer-middle-in" style="width:33%;">
+                    <h6>Tài khoản</h6>
+                    <ul>
+                        <li><a href="account.html">Tài khoản của bạn</a></li>
+                        <li><a href="#">Lịch sử đặt hàng</a></li>
+                        <li><a href="wishlist.html">Danh sách mong muốn</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    </div>
+</body>
+
+</html>

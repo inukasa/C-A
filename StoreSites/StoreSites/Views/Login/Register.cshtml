@@ -1,0 +1,279 @@
+﻿@model StoreSites.Models.User
+@using StoreSites.Models;
+@{
+    Layout = null;
+}
+@Html.Raw(ViewBag.ErrorMessege)
+<html>
+
+<head>
+    <title>Register</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="~/Scripts/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link rel="stylesheet" href="~/Content/stylebutton.css">
+    <link href="~/Content/styleRegisterAccount.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="~/Content/etalage.css">
+    <script src="~/Scripts/jquery.etalage.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-in">
+                    <div class="logo">
+                        <a href="@Url.Action("Index","Products")"><img src="~/Images/Logo web.png" alt=" "></a>
+                    </div>
+                    <!--Phần này là phần menu phía trên -->
+                    <div class="header-in">
+                        <ul class="icon1 sub-icon1">
+                            <li>@Html.ActionLink("Đăng ký", "Register", "Login")</li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="h_menu4">
+                    <a class="toggleMenu" href="index.html">Menu</a> <!--Nút home của trang chủ-->
+                    <!--Thanh navigation của web site-->
+                    <ul class="nav">
+                        <li class="active"><a href="@Url.Action("Index","Products")"><i></i>Trang chủ</a></li>
+                        @using (Entities1 db = new Entities1())
+                        {
+                            List<SubCategory> listSC1 = db.SubCategories.Where(x => x.categoryID == 1).ToList();
+                            List<SubCategory> listSC2 = db.SubCategories.Where(x => x.categoryID == 2).ToList();
+                            List<SubCategory> listSC3 = db.SubCategories.Where(x => x.categoryID == 3).ToList();
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#">Quần áo nam</a>
+                                    <ul class="dropdown-content">
+                                        @foreach (SubCategory sc in listSC1)
+                                        {
+                                            <li>@Html.ActionLink("" + sc.subcategoryName, "Cate", "Products", new { id = sc.subcategoryID }, null)</li>
+                                        }
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#">Quần áo nữ</a>
+                                    <ul class="dropdown-content">
+                                        @foreach (SubCategory sc in listSC2)
+                                        {
+                                            <li>@Html.ActionLink("" + sc.subcategoryName, "Cate", "Products", new { id = sc.subcategoryID }, null)</li>
+                                        }
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#">Phụ kiện</a>
+                                    <ul class="dropdown-content">
+                                        @foreach (SubCategory sc in listSC3)
+                                        {
+                                            <li>@Html.ActionLink("" + sc.subcategoryName, "Cate", "Products", new { id = sc.subcategoryID }, null)</li>
+                                        }
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="@Url.Action("Contact", "Products")">Liên hệ</a></li>
+                        }
+                    </ul>
+                    <script type="text/javascript" src="js/nav.js"></script>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom-in">
+            <div class="container">
+                <div class="header-bottom-on">
+                    <p class="wel" style="color: #ff5757">Xin chào, chào mừng bạn tham gia và sử dụng C&A shop</p>
+                    <div class="header-can">
+
+                        <!--Thanh searchbar-->
+                        <div class="search">
+                            @using (Html.BeginForm("Search", "Products", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                            {
+                                <input type="text" name="search">
+                                <input type="submit" value="">
+                            }
+                        </div>
+
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="account">
+            <h2 class="account-in">Tạo tài khoản C&A của bạn</h2> Bạn đã là thành viên? <a href="@Url.Action("LoginA", "Login")" style="color:red;"><b>Đăng nhập tại đây</b></a>
+            @using (Html.BeginForm("Register", "Login", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.typeID, new { data_val = "false", Value = "0" })
+            @Html.HiddenFor(model => model.registerDate, new {  data_val = "false", Value = "0"  })
+            @Html.HiddenFor(model => model.status, new { data_val = "false", Value = "0"  })
+            <table class="regis">
+                <tr>
+                    <th width="15%"></th>
+                    <th width="85%"></th>
+                </tr>
+                <tr>
+                    <td><span class="mail">Tài khoản*</span></td>
+                    <td class="col-md-10">
+                        @Html.EditorFor(model => model.username, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="mail">Mật khẩu*</span></td>
+                    <td>
+                        @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
+                        @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="mail">Họ và tên*</span></td>
+                    <td class="col-md-10">
+                        @Html.EditorFor(model => model.fullname, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.fullname, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="mail">Địa chỉ*</span></td>
+                    <td class="col-md-10">
+                        @Html.EditorFor(model => model.address, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.address, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="mail">Số điện thoại*</span></td>
+                    <td class="col-md-10" style="border-radius:10px;">
+                        @Html.EditorFor(model => model.phone, new { htmlAttributes = new { @maxlength = "10", @class = "form-control", @type = "tel" ,@pattern="[0]{1}[0-9]{9}"} })
+                        @Html.ValidationMessageFor(model => model.phone, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><span class="mail">Email*</span></td>
+                    <td class="col-md-10">
+                        @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control", @type = "email", @style = "width:600px; border-radius:10px;" } })
+                        @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="mail">Giới tính*</span></td>
+                    <td class="col-md-10">
+                        @{
+                            List<SelectListItem> listItems = new List<SelectListItem>();
+                            listItems.Add(new SelectListItem
+                            {
+                                Text = "Nam",
+                                Value = "Nam",
+                                Selected = true
+                            });
+                            listItems.Add(new SelectListItem
+                            {
+                                Text = "Nữ",
+                                Value = "Nữ"
+                            });
+                        }
+
+                        @Html.DropDownListFor(model => model.gender, listItems)
+                        @Html.ValidationMessageFor(model => model.gender, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="mail">Ngày sinh*</span></td>
+                    <td class="col-md-10">
+                        @Html.EditorFor(model => model.birthday, new { htmlAttributes = new { @class = "form-control", @type = "date", @style = "width:200px" } })
+                        @Html.ValidationMessageFor(model => model.birthday, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <input type="checkbox" class="check_rules" name="checkru"> Tôi đã đọc và đồng ý với<a href="#popup"><u> điều khoản </u></a> quy định của Shop
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" onclick="return checkRegister()" />
+                </div>
+            </div>
+        </div>
+            }
+
+            <div id="popup" class="overlay">
+                <div class="popup">
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        <h3><b>Điều khoản của C&A Team</b></h3>  </br>
+                        <h4>Chào mừng bạn đến với C&A team</h4>  </br>
+                        1. Ở đây chúng tôi cung cấp dịch vụ mua bán hàng các sản phẩm thời trang thể thao mới nhất, luôn cập nhật xu hướng trên thị trường. </br>
+                        2. Chỉ được hủy order tối đa sau 1 tiếng, nếu sau 1 tiếng bạn sẽ phải bồi thường 50% giá trị sản phẩm. </br>
+                        3.	Chúng tôi sẽ hỗ trợ về việc và nhận bảo trì về các nguyên nhân khách quan của sản phẩm. Và sẽ không chịu trách nhiệm với các nguyên nhân do người dùng gây ra.</br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-middle">
+            <div class="container">
+
+                <div class="footer-middle-in">
+                    <h6>Mua hàng</h6>
+                    <ul>
+                        <li><a href="#">Đồ Nam</a></li>
+                        <li><a href="#">Đồ Nữ</a></li>
+                        <li><a href="#">Phụ Kiện Thể Thao</a></li>
+                    </ul>
+                </div>
+                <div class="footer-middle-in">
+                    <h6>Dịch vụ khách hàng</h6>
+                    <ul>
+                        <li><a href="contact.html">Liên hệ với chúng tôi</a></li>
+                        <li><a href="#">Địa điểm</a></li>
+                    </ul>
+                </div>
+                <div class="footer-middle-in">
+                    <h6>Tài khoản</h6>
+                    <ul>
+                        <li><a href="account.html">Tài khoản của bạn</a></li>
+                        <li><a href="#">Lịch sử đặt hàng</a></li>
+                        <li><a href="wishlist.html">Danh sách mong muốn</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    </div>
+    <script type="text/javascript">
+        function checkRegister() {
+
+            if (document.querySelector('.check_rules').checked) {
+
+                return true;
+            } else {
+                alert('Bạn phải đồng ý điều khoản sử dụng trước khi đăng ký !!');
+                return false;
+            }
+        }
+
+    </script>
+
+
+</body>
+</html>

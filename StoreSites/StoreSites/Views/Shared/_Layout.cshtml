@@ -1,0 +1,226 @@
+﻿@using StoreSites.Models;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="~/Content/stylebutton.css" type="text/css" media="all">
+    <link href="~/Content/stylelogin.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="~/Content/etalage.css" type="text/css" media="all">
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+    <link href="~/Content/styletest.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/Content/styleRegisterAccount.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/Content/styleproductpage.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="~/Content/etalage.css">
+    <link href="~/Content/stylecheckout.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/Content/styleresetpass.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="~/Scripts/jquery.min.js"></script>
+    <script src="~/Scripts/jquery.etalage.min.js"></script>
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    @if (Session["user"] == null)
+    {
+        <div class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-in">
+                        <div class="logo">
+                            <a href="@Url.Action("Index","Products")"><img src="~/Images/Logo web.png" alt=" "></a>
+                        </div>
+                        <!--Phần này là phần menu phía trên -->
+                        <div class="header-in">
+                            <ul class="icon1 sub-icon1">
+                                <li>@Html.ActionLink("Đăng nhập", "LoginA", "Login")</li>
+                                <li>@Html.ActionLink("Đăng ký", "Register", "Login")</li>
+                                <li>@Html.ActionLink("Reset Password", "ResetPassword", "Login")</li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom-in">
+                <div class="container">
+                    <div class="header-bottom-on">
+                        <p class="wel" style="color: #ff5757">Xin chào, chào mừng bạn tham gia và sử dụng C&A shop</p>
+                        <div class="header-can">
+
+                            <!--Thanh searchbar-->
+                            <div class="search">
+                                @using (Html.BeginForm("Search", "Products", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                                {
+                                    <input type="text" name="search">
+                                    <input type="submit" value="">
+                                }
+                            </div>
+
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    @if (Session["user"] != null)
+    {
+        <div class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-in">
+                        <div class="logo">
+                            <a href="@Url.Action("Index","Products")"><img src="~/Images/Logo web.png" alt=" "></a>
+                        </div>
+                        <!--Phần này là phần menu phía trên -->
+                        <div class="header-in">
+                            <ul class="icon1 sub-icon1">
+                                <li>@Html.ActionLink("Log out", "Logout", "Login")</li>
+                                <li>@Html.ActionLink("Profile", "ViewProfile", "Login")</li>
+                                <li>
+                                    @{
+                                        string username = Session["username"].ToString();
+                                        using (Entities1 db = new Entities1())
+                                        {
+                                        <li>@Html.ActionLink("List Order", "ListOrder", "CheckoutAndOrder", new { id = db.Users.Where(x => x.username.Equals(username)).FirstOrDefault().userID }, null)</li>
+                                        List<ShoppingCart> listCart = db.ShoppingCarts.Where(x => x.userID == db.Users.Where(y => y.username.Equals(username)).FirstOrDefault().userID).ToList();
+                                        var totalPrice = 0.0;
+                                        <div class="cart">
+                                            <a href="@Url.Action("CartList", "Products", new { id = db.Users.Where(x => x.username.Equals(username)).FirstOrDefault().userID})" class="cart-in"> </a>
+                                            <span>@listCart.Count</span><!--Dòng này dùng để hiển thị số sản phẩm trong giỏ hàng-->
+                                        </div>
+                                        <ul class="sub-icon1 list">
+                                            <h3>Recently added items</h3>
+                                            @foreach (ShoppingCart sc in listCart)
+                                            {
+                                                string url = "~/Images/" + db.Products.Where(y => y.productID.Equals(sc.productID)).FirstOrDefault().productIcon;
+                                                <div class="shopping_cart">
+                                                    <div class="cart_box">
+                                                        <div class="message">
+                                                            <div class="alert-close"> </div>
+                                                            <div class="list_img"><img src="@Url.Content(url)" class="img-responsive" alt="@url"></div>
+                                                            <div class="list_desc">
+                                                                <h4><a href="#">@db.Products.Where(y => y.productID.Equals(sc.productID)).FirstOrDefault().productName</a></h4>@sc.productQuantityOrder X<span class="actual">$@sc.productPrice</span>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                totalPrice += sc.productTotalPrice;
+                                            }
+                                            <div class="total">
+                                                <div class="total_left">CartSubtotal : </div>
+                                                <div class="total_right">$@totalPrice</div>
+                                                <div class="clearfix"> </div>
+                                            </div>
+                                            <div class="login_buttons">
+                                                <div class="check_button"><a href="@Url.Action("Checkout","CheckoutAndOrder")">Check out</a></div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </ul>
+                                    }
+                                    }
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="container">
+                        <div class="h_menu4">
+                            <a class="toggleMenu" href="index.html">Menu</a> <!--Nút home của trang chủ-->
+                            <!--Thanh navigation của web site-->
+                            <ul class="nav">
+                                <li class="active"><a href="@Url.Action("Index","Products")"><i></i>Trang chủ</a></li>
+                                @using (Entities1 db = new Entities1())
+                                {
+                                    List<SubCategory> listSC1 = db.SubCategories.Where(x => x.categoryID == 1).ToList();
+                                    List<SubCategory> listSC2 = db.SubCategories.Where(x => x.categoryID == 2).ToList();
+                                    List<SubCategory> listSC3 = db.SubCategories.Where(x => x.categoryID == 3).ToList();
+                                    <li>
+                                        <a href="#">Quần áo nam</a>
+                                        <ul class="drop">
+                                            @foreach (SubCategory sc in listSC1)
+                                            {
+                                                <li>@Html.ActionLink("" + sc.subcategoryName, "Cate", "Products", new { id = sc.subcategoryID }, null)</li>
+                                            }
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Quần áo nữ</a>
+                                        <ul class="drop">
+                                            @foreach (SubCategory sc in listSC2)
+                                            {
+                                                <li>@Html.ActionLink("" + sc.subcategoryName, "Cate", "Products", new { id = sc.subcategoryID }, null)</li>
+                                            }
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Giày dép</a>
+                                        <ul class="drop">
+                                            @foreach (SubCategory sc in listSC3)
+                                            {
+                                                <li>@Html.ActionLink("" + sc.subcategoryName, "Cate", "Products", new { id = sc.subcategoryID }, null)</li>
+                                            }
+                                        </ul>
+                                    </li>
+                                    <li><a href="~/Shared/Contact">Contact </a></li>
+                                }
+                            </ul>
+                            <script type="text/javascript" src="js/nav.js"></script>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom-in">
+                    <div class="container">
+                        <div class="header-bottom-on">
+                            <p class="wel" style="color: #ff5757">Xin chào, chào mừng bạn tham gia và sử dụng C&A shop</p>
+                            <div class="header-can">
+
+                                <!--Thanh searchbar-->
+                                <div class="search">
+                                    @using (Html.BeginForm("Search", "Products", FormMethod.Post, new { enctype = "multipart/form-data"}))
+                                    {
+                                        <input type="text" name="search">
+                                        <input type="submit" value="">
+                                    }
+                                </div>
+
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

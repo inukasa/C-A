@@ -1,0 +1,731 @@
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\StoreSites.dll.config
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\StoreSites.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\StoreSites.pdb
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\csc.exe
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\csc.exe.config
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\csc.rsp
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\csi.exe
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\csi.exe.config
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\csi.rsp
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.AppContext.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Console.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.IO.Compression.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Security.Claims.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.ValueTuple.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\vbc.exe
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\vbc.exe.config
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\vbc.rsp
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\Antlr3.Runtime.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\EntityFramework.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\Newtonsoft.Json.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.Helpers.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.Mvc.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.Optimization.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.Razor.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.WebPages.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\WebGrease.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\EntityFramework.xml
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.Helpers.xml
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.Mvc.xml
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.Optimization.xml
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.Razor.xml
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.WebPages.xml
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\Newtonsoft.Json.xml
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\Antlr3.Runtime.pdb
+C:\Users\admin\source\repos\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\source\repos\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CopyComplete
+C:\Users\admin\source\repos\StoreSites\StoreSites\obj\Debug\StoreSites.dll
+C:\Users\admin\source\repos\StoreSites\StoreSites\obj\Debug\StoreSites.pdb
+C:\Users\admin\source\repos\StoreSites\StoreSites\obj\Debug\StoreSites.csprojAssemblyReference.cache
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\StoreSites.dll.config
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\StoreSites.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\StoreSites.pdb
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\csc.exe
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\csc.exe.config
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\csc.rsp
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\csi.exe
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\csi.exe.config
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\csi.rsp
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.AppContext.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Console.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.IO.Compression.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.Claims.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.ValueTuple.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\vbc.exe
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\vbc.exe.config
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\vbc.rsp
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\Antlr3.Runtime.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\EntityFramework.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\Newtonsoft.Json.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Helpers.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Mvc.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Optimization.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Razor.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.WebPages.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\WebGrease.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\EntityFramework.xml
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Helpers.xml
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Mvc.xml
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Optimization.xml
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Razor.xml
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.WebPages.xml
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\Newtonsoft.Json.xml
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\obj\Debug\StoreSites.csprojAssemblyReference.cache
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CopyComplete
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\obj\Debug\StoreSites.dll
+C:\Users\admin\Dropbox\Back_end\StoreSites\StoreSites\obj\Debug\StoreSites.pdb
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\StoreSites.dll.config
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\StoreSites.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\StoreSites.pdb
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\csc.exe
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\csc.exe.config
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\csc.rsp
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\csi.exe
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\csi.exe.config
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\csi.rsp
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.AppContext.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Console.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.Claims.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\vbc.exe
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\vbc.exe.config
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\vbc.rsp
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\Antlr3.Runtime.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\EntityFramework.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\EntityFramework.SqlServer.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\Newtonsoft.Json.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Helpers.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Mvc.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Optimization.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Razor.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.WebPages.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\WebGrease.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\EntityFramework.xml
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\EntityFramework.SqlServer.xml
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Helpers.xml
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Mvc.xml
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Optimization.xml
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.Razor.xml
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.WebPages.xml
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\Newtonsoft.Json.xml
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\Antlr3.Runtime.pdb
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\obj\Debug\StoreSites.csprojAssemblyReference.cache
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CopyComplete
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\obj\Debug\StoreSites.dll
+C:\Users\Nguyen Duc\Dropbox\Back_end\StoreSites\StoreSites\obj\Debug\StoreSites.pdb
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\StoreSites.dll.config
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\StoreSites.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\StoreSites.pdb
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\WebGrease.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\obj\Debug\StoreSites.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CopyComplete
+C:\Users\Admin\Desktop\StoreSites\StoreSites\obj\Debug\StoreSites.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\obj\Debug\StoreSites.pdb
+G:\Duy Anh\StoreSites\StoreSites\bin\StoreSites.dll.config
+G:\Duy Anh\StoreSites\StoreSites\bin\StoreSites.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\StoreSites.pdb
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\csc.exe
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\csc.exe.config
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\csc.rsp
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\csi.exe
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\csi.exe.config
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\csi.rsp
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.AppContext.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Collections.Immutable.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Console.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.IO.Compression.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Reflection.Metadata.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Security.AccessControl.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Security.Claims.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Security.Principal.Windows.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.ValueTuple.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\vbc.exe
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\vbc.exe.config
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\vbc.rsp
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe
+G:\Duy Anh\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe.config
+G:\Duy Anh\StoreSites\StoreSites\bin\Antlr3.Runtime.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\EntityFramework.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\EntityFramework.SqlServer.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\Microsoft.Web.Infrastructure.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\Newtonsoft.Json.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.Helpers.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.Mvc.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.Optimization.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.Razor.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.WebPages.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\WebGrease.dll
+G:\Duy Anh\StoreSites\StoreSites\bin\EntityFramework.xml
+G:\Duy Anh\StoreSites\StoreSites\bin\EntityFramework.SqlServer.xml
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.Helpers.xml
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.Mvc.xml
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.Optimization.xml
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.Razor.xml
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.WebPages.xml
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.xml
+G:\Duy Anh\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.xml
+G:\Duy Anh\StoreSites\StoreSites\bin\Newtonsoft.Json.xml
+G:\Duy Anh\StoreSites\StoreSites\bin\Antlr3.Runtime.pdb
+G:\Duy Anh\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Duy Anh\StoreSites\StoreSites\obj\Debug\StoreSites.csprojAssemblyReference.cache
+G:\Duy Anh\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CoreCompileInputs.cache
+G:\Duy Anh\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CopyComplete
+G:\Duy Anh\StoreSites\StoreSites\obj\Debug\StoreSites.dll
+G:\Duy Anh\StoreSites\StoreSites\obj\Debug\StoreSites.pdb
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\StoreSites.dll.config
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\StoreSites.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\StoreSites.pdb
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\csc.exe
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\csc.exe.config
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\csc.rsp
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\csi.exe
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\csi.exe.config
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\csi.rsp
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.AppContext.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Console.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.IO.Compression.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.Claims.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.ValueTuple.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\vbc.exe
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\vbc.exe.config
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\vbc.rsp
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\Antlr3.Runtime.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\EntityFramework.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\Newtonsoft.Json.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\PagedList.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\PagedList.Mvc.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.Helpers.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.Mvc.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.Optimization.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.Razor.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.WebPages.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\WebGrease.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\EntityFramework.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\PagedList.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\PagedList.Mvc.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.Helpers.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.Mvc.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.Optimization.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.Razor.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.WebPages.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\Newtonsoft.Json.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CopyComplete
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\obj\Debug\StoreSites.dll
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\obj\Debug\StoreSites.pdb
+C:\Users\admin\Downloads\StoreSites\StoreSites\StoreSites\obj\Debug\StoreSites.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\StoreSites.dll.config
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\StoreSites.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\StoreSites.pdb
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\PagedList.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\WebGrease.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\PagedList.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\obj\Debug\StoreSites.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CopyComplete
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\obj\Debug\StoreSites.dll
+C:\Users\Admin\Desktop\StoreSites\StoreSites\StoreSites\obj\Debug\StoreSites.pdb
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\StoreSites.dll.config
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\StoreSites.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\StoreSites.pdb
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\PagedList.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\WebGrease.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\PagedList.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\obj\Debug\StoreSites.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CopyComplete
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\obj\Debug\StoreSites.dll
+C:\Users\Admin\Desktop\StoreSites01\StoreSites\StoreSites\obj\Debug\StoreSites.pdb
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\StoreSites.dll.config
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\StoreSites.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\StoreSites.pdb
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\csc.exe
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\csc.exe.config
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\csc.rsp
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\csi.exe
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\csi.exe.config
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\csi.rsp
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.AppContext.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Console.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.Claims.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\vbc.exe
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\vbc.exe.config
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\vbc.rsp
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\Antlr3.Runtime.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\EntityFramework.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\EntityFramework.SqlServer.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\Newtonsoft.Json.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\PagedList.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\PagedList.Mvc.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.Helpers.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.Mvc.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.Optimization.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.Razor.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.WebPages.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\WebGrease.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\EntityFramework.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\EntityFramework.SqlServer.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\PagedList.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\PagedList.Mvc.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.Helpers.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.Mvc.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.Optimization.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.Razor.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.WebPages.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\Newtonsoft.Json.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\Antlr3.Runtime.pdb
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\obj\Debug\StoreSites.csproj.CopyComplete
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\obj\Debug\StoreSites.dll
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\obj\Debug\StoreSites.pdb
+C:\Users\Nguyen Duc\Desktop\StoreSites01\StoreSites01\StoreSites\StoreSites\obj\Debug\StoreSites.csprojAssemblyReference.cache
